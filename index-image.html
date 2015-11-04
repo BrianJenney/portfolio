@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="css/main.css">
 
 		<link rel="stylesheet" href="css/colorscheme-0.css">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
 		
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:100,200,300,400,700' rel='stylesheet' type='text/css'> 
 
@@ -49,10 +51,8 @@
 			</div>
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">				
-					<li><a href="#welcome">Welcome</a></li>
 					<li><a href="#cv">Who I Am</a></li>
-					<li><a href="#portfolio">What I Do</a></li>
-					<li><a href="#blog">Projects</a></li>
+					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>				
 				</ul>
 			</div>				
@@ -65,28 +65,31 @@
 			<div class="row">
 				<div class="hero" data-start="top:0px;opacity:1" data-top-bottom="top:500px;opacity:0">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h1>Hi, I'm Brian Jenney</h1>
-						<h3><span class="rotator"></span></h3>
-						<div class="social-icons">
 
+						<!-- ADD FADE IN EFFECT -->
+
+						<h1><span class="typeMe"></span></h1>
 						
-							<a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i> </a>
-							<a href="#" target="_blank" class="linkedin"><i class="fa fa-github"></i> </a>
-						</div>
-
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="slides">
-			<div class="slides-container">
-				<img src="img/bg-head-2.jpg" alt="Brian Jenney tackling the space needle" />
-			</div>
+			<article>
+<!--  Content  -->
+</article>
+  
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay loop id="video-background" muted>
+
+  <source src="img/Daylight Typing - TanuriX Stock Footage.mp4" type="video/mp4">
+</video>
+  
+
 		</div>
 	</section>
 
-	<section id="welcome">	
+	<section id="cv">	
 		<img alt="" class="thumb-middle" src="img/user-1.jpg" alt="Brian Jenney in CSS">			
 		<div class="container">
 			<div class="row">
@@ -98,7 +101,7 @@
 			</div>
 			<div class="row">
 				<div class="hero col-sm-6 col-sm-offset-3">
-					<p>Short facts about me</p>
+					<h1>Short facts about me</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -131,40 +134,40 @@
 									<h4>Skills</h4>
 								</div>
 								<div class="col-sm-8">
-									<div class="skillbar clearfix " data-percent="80%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>HTML5</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">80%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 									
-									<div class="skillbar clearfix " data-percent="95%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>CSS3</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">95%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 									
-									<div class="skillbar clearfix " data-percent="75%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>BOOTSTRAP</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">85%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 									
-									<div class="skillbar clearfix " data-percent="88%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>JAVASCRIPT</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">80%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 
-									<div class="skillbar clearfix " data-percent="88%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>JQUERY</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">80%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 
-									<div class="skillbar clearfix " data-percent="88%">
+									<div class="skillbar clearfix " data-percent="100%">
 										<div class="skillbar-title" style="background:#2F3238;"><span>GITHUB</span></div>
 										<div class="skillbar-bar" style="background:#2F3238;"></div>
-										<div class="skill-bar-percent">75%</div>
+										<div class="skill-bar-percent"></div>
 									</div> <!-- End Skill Bar -->
 									
 								</div>
@@ -180,92 +183,28 @@
 						</div>
 					</div>
 				
-					<div class="col-md-6">
+					<div class="col-md-6 aboutMe">
 						<p>Hi, I'm Brian.</p>							
 						<p>Let's make something cool together... not Skynet though. Definitely not Skynet.</p>
-						<p>Other than not building Skynet, I really enjoy making clean, clear and responsive code for myself and maybe you too! Let's convert some visitors, increase your SEO, dynamize that static page and be awesome together!</p>
-
-													
-							
+						<p>Other than not building Skynet, I really enjoy making clean, clear and responsive code for myself and maybe you too! Contact me today and let's see what we can build together!</p>
 					</div>				
 			</div>
 		</div><!--container-->
 	</section>
-	
-	<section id="offers">
-		<div class="container">
-			<div class="row">
-				<div class="hero col-sm-6 col-sm-offset-3">
-					<p>What I offer</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="feature">
-						<div class="icon ">
-							<i class="fa fa-desktop"></i>
-						</div>
-						<div class="headline">
-							<h3>UX/UI</h3>
-						</div>
-						<div class="text hidden-sm">
-							<p>Let's make something users will really like. An inuitive, classy design that will increase conversion, your SEO and maybe even change the world.</p>
-						</div>
-						<div class="background-icon animated" data-animation-delay="0" data-animation="fadeInLeft">
-							<i class="fa fa-desktop"></i>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="feature">
-						<div class="icon ">
-							<i class="fa fa-compass"></i>
-						</div>
-						<div class="headline">
-							<h3>Responsive Design</h3>
-						</div>
-						<div class="text hidden-sm">
-							<p>Your site should look just as good on my phone as it does on your desktop! Bootstrap, media queries, and a little magic can make it so!</p>
-						</div>
-						<div class="background-icon animated" data-animation-delay="200" data-animation="fadeInLeft">
-							<i class="fa fa-compass"></i>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="feature">
-						<div class="icon ">
-							<i class="fa fa-tablet"></i>
-						</div>
-						<div class="headline">
-							<h3>PSD Conversion</h3>
-						</div>
-						<div class="text hidden-sm">
-							<p>A static PSD can be an awesome start to building a dynamic landing page or site using Jquery and Javascript and API's. A personal favorite.</p>
-						</div>
-						<div class="background-icon animated" data-animation-delay="200" data-animation="fadeInLeft">
-							<i class="fa fa-tablet"></i>
-						</div>
-					</div>
-				</div>
-			</div><!--row-->
-			
-		</div>			
-	</section>
-			
-	<section class="callToAction">			
-		<div class="container animated" data-animation-delay="200" data-animation="rubberBand">
-			<h2>I'm currently available to build something awesome with you or your company.</h2>
-			<button class="btn btn-default btn-lg btn-toWhite"  onclick="$.scrollTo( '#contact', 800, {easing:'easeOutExpo', axis:'y'} );"><i class="fa fa-check"></i> HIRE ME</button>
-		</div>
-	</section>
 
+	<!-- SECTION ABOUT ME WITH TEXT ROTATOR -->
+
+	<section id="Who">
+		<div class="container-fluid">
+			<quote>“Talk is cheap. Show me the code.”  - <em>Linus Torvalds</em></quote>
+		</div> <!-- container -->
+	</section>
+	
 	<section id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="hero col-sm-6 col-sm-offset-3">
 					<h2>Projects</h2>
-					<p>Projects I worked on</p>
 					<div class="space"></div>
 				</div>
 			</div>
@@ -286,55 +225,18 @@
 					<div class="portfolio-hover">
 						<div class="img"><img src="img/portfolio/port-1.jpg" alt=""></div>
 						<div class="info dark">
-							<h2>Photoshop Text Effect</h2>
-							<p>Graphics | Web</p>
+							<!-- DESCRIPTION -->
 						</div>
 					</div>
 
 					<div class="portfolio-content">
-						<h2>Photoshop Text Effect</h2>
 						<div class="row">
-							<div class="col-md-8">
-								<div id="carousel-port" class="owl-carousel owl-portfolio">
-									<div class="item"><img class="lazyOwl img-responsive" data-src="img/portfolio/port-1-2.jpg" src="#" alt="" />
-									</div>
-									<div class="item"><img class="lazyOwl img-responsive" data-src="img/portfolio/port-1-3.jpg" src="#" alt="" />
-									</div>
-									<div class="item"><img class="lazyOwl img-responsive" data-src="img/portfolio/port-1-4.jpg" src="#" alt="" />
-									</div>
-								</div>
-								<h5>PROJECT DESCRIPTION</h5>
+							<div class="col-md-8 col-md-offset-2">
+								<h2>Devata Giving Circle</h2>
+								<img src="img/portfolio/port-1.jpg" class="img-responsive" alt="Devata Giving Circle Cambodian Women" />
 								<div class="description">
 									<p>
-										Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-										<br/>
-										This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="client">
-									<h5>CLIENT NAME</h5>
-									<p>
-										Client A
-									</p>
-								</div>
-								<div class="date">
-									<h5>TIMEFRAME</h5>
-									<p>
-										August 2011 - June 2012
-									</p>
-								</div>
-								<div class="url">
-									<h5>URL</h5>
-									<p>
-										<a href="#">www.thecompany.com</a>
-									</p>
-								</div>
-								<div class="tags">
-									<h5>TAGS</h5>
-									<p>
-										<span class="tagIcon">Cover</span><span class="tagIcon">Art</span><span class="tagIcon">Mockup</span>
+										Single-page layout for a local Cambodian-American philanthropy group, Devata Giving Circle. 
 									</p>
 								</div>
 							</div>
@@ -348,21 +250,19 @@
 					<div class="portfolio-hover">
 						<div class="img"><img src="img/portfolio/port-2.jpg" alt=""></div>
 						<div class="info dark">
-							<h2>Project for Client B</h2>
-							<p>Mockup</p>
+							<!-- DESCRIPTION -->
 						</div>
 					</div>
 
 					<div class="portfolio-content">
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
-								<h2>Portfolio Client B</h2>
-								<img src="img/portfolio/port-2-2.jpg" class="img-responsive" alt="" />
-								<h5>PROJECT DESCRIPTION</h5>
+								<h2>Sarah Science Camp</h2>
+								<img src="img/portfolio/port-2.jpg" class="img-responsive" alt="Sarah Science Camp Oakland California" />
+								
 								<div class="description">
 									<p>
-										This is the small version of a portfolio. <br>
-										Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
+										Site design for Sarah's Science Camp and afterschool programs. Sarah's Science is an outdoor camp which blends nature, science and outdoor activities. 
 									</p>
 								</div>
 							</div>
@@ -376,130 +276,49 @@
 					<div class="portfolio-hover">
 						<div class="img"><img src="img/portfolio/port-3.jpg" alt=""></div>
 						<div class="info dark">
-							<h2>Big Project</h2>
-							<p>Web | Mockup | Graphics</p>
-						</div>
-					</div>
-
-					<div class="portfolio-content">
-						<h2 class="text-center">Big Project</h2>
-						<div class="row">
-							<div class="col-sm-4 text-center">
-								<div class="client">
-									<h5>CLIENT NAME</h5>
-									<p>
-										Client A
-									</p>
-								</div>
-							</div>
-							<div class="col-sm-4 text-center">
-								<div class="date">
-									<h5>TIMEFRAME</h5>
-									<p>
-										August 2011 - June 2012
-									</p>
-								</div>
-							</div>
-							<div class="col-sm-4 text-center">
-								<div class="url">
-									<h5>URL</h5>
-									<p>
-										<a href="#">www.thecompany.com</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						
-						<hr class="invisible">
-						
-						<h5 class="text-center">PROJECT DESCRIPTION</h5>
-						<div class="description">
-							<p class="text-center">
-								Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-								<br/>
-								This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
-							</p>
-						</div>
-						
-						<hr class="invisible">
-						
-						<div class="row">
-							<div class="col-sm-6">
-								<img class="img-responsive" src="img/portfolio/port-3-2.jpg" alt="" />
-							</div>
-							<div class="col-sm-6">
-								Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-								<ul class="list-unstyled">
-									<li><i class="fa fa-check"></i> Dummy Text Feature 1</li>
-									<li><i class="fa fa-check"></i> This is another feature</li>
-									<li><i class="fa fa-check"></i> Wow a third one</li>
-								</ul>
-							</div>
-						</div>
-						
-						<hr class="invisible">
-						
-						<div class="row">
-							<div class="col-sm-6">
-								Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-								<br>
-								It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century. 
-							</div>
-							<div class="col-sm-6">
-								<img class="img-responsive" src="img/portfolio/port-3-3.jpg" alt="" />
-							</div>
-						</div>
-						
-						<hr class="invisible">
-						
-						<div class="tags">
-							<h5>TAGS</h5>
-							<p>
-								<span class="tagIcon">Cover</span><span class="tagIcon">Art</span><span class="tagIcon">Mockup</span>
-							</p>
-						</div>
-					</div><!--portfolio-content-->
-				</div>
-			</div>
-			
-			<div class="col-sm-4" data-group="web">   
-				<div class="portfolio-link">
-					<div class="portfolio-hover">
-						<div class="img"><img src="img/portfolio/port-4.jpg" alt=""></div>
-						<div class="info dark">
-							<h2>App Design</h2>
-							<p>Web</p>
+							<!-- DESCRIPTION -->
 						</div>
 					</div>
 
 					<div class="portfolio-content">
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
-								<h2>App Design</h2>
-								<img class="img-responsive" src="img/portfolio/port-4-2.jpg" alt="" />
-								<div class="row">
-									<div class="col-md-4">
-										<div class="date">
-											<h5>TIMEFRAME</h5>
-											<p>
-												August 2011 - June 2012
-											</p>
-										</div>
-										<div class="url">
-											<h5>URL</h5>
-											<p>
-												<a href="#">www.thecompany.com</a>
-											</p>
-										</div>
-									</div>
-									<div class="col-md-8">
-										<h5>PROJECT DESCRIPTION</h5>
-										<div class="description">
-											<p>
-												Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-											</p>
-										</div>
-									</div>
+								<h2>Marcus Turner</h2>
+								<img src="img/portfolio/port-3.jpg" class="img-responsive" alt="Marcus Turner Oakland California, Beats, Music" />
+								
+								<div class="description">
+									<p>
+										A simple, clean portfolio page for Marcus Turner, a producer from Oakland California. You can hear some of his beats on the page. Check it out!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div><!--portfolio-content-->
+				</div>
+			</div>
+
+
+		<!-- BOTTOM ROW OF PICS -->
+
+			<div class="col-sm-4" data-group="web">   
+				<div class="portfolio-link">
+					<div class="portfolio-hover">
+						<div class="img-responsive"><img src="img/portfolio/port-4.jpg" alt=""></div>
+						<div class="info dark">
+							<!-- DESCRIPTION -->
+						</div>
+					</div>
+
+					<div class="portfolio-content">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<h2>PSD Conversion</h2>
+								<img src="img/portfolio/port-4.jpg" class="img-responsive" alt="PSD, Music, Fun project" />
+								
+								<div class="description">
+									<p>
+										I saw this awesome PSD and had to code it. Very simple, wonderful background image really eye catching. 
+									</p>
 								</div>
 							</div>
 						</div>
@@ -512,50 +331,19 @@
 					<div class="portfolio-hover">
 						<div class="img"><img src="img/portfolio/port-5.jpg" alt=""></div>
 						<div class="info dark">
-							<h2>PSD Mockup</h2>
-							<p>Graphics | Mockup</p>
+							<!-- DESCRIPTION -->
 						</div>
 					</div>
 
 					<div class="portfolio-content">
-						<h2>PSD Mockup</h2>
 						<div class="row">
-							<div class="col-md-8">
-								<div class="video-container">
-									<iframe src="http://player.vimeo.com/video/25708134?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" style="border-width:0px"></iframe>
-								</div>	
-								<h5>PROJECT DESCRIPTION</h5>
+							<div class="col-md-8 col-md-offset-2">
+								<h2>Style Lend</h2>
+								<img src="img/portfolio/port-5.jpg" class="img-responsive" alt="" />
+								
 								<div class="description">
 									<p>
-										Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-										<br/>
-										This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="client">
-									<h5>CLIENT NAME</h5>
-									<p>
-										Client A
-									</p>
-								</div>
-								<div class="date">
-									<h5>TIMEFRAME</h5>
-									<p>
-										August 2011 - June 2012
-									</p>
-								</div>
-								<div class="url">
-									<h5>URL</h5>
-									<p>
-										<a href="#">www.thecompany.com</a>
-									</p>
-								</div>
-								<div class="tags">
-									<h5>TAGS</h5>
-									<p>
-										<span class="tagIcon">Cover</span><span class="tagIcon">Art</span><span class="tagIcon">Mockup</span>
+										A replica of Style Lend's site. I really liked the overlays they use on their original site so I decided to take a stab at replicating their entire landing page. Very fun!
 									</p>
 								</div>
 							</div>
@@ -569,49 +357,19 @@
 					<div class="portfolio-hover">
 						<div class="img"><img src="img/portfolio/port-6.jpg" alt=""></div>
 						<div class="info dark">
-							<h2>The Shirt</h2>
-							<p>Web | Mockup</p>
+							
 						</div>
 					</div>
 					
 					<div class="portfolio-content">
-						<h2>The Shirt</h2>
 						<div class="row">
-							<div class="col-md-8">
-								<img class="img-responsive" src="img/portfolio/port-6-2.jpg" alt="" />
-
-								<h5>PROJECT DESCRIPTION</h5>
+							<div class="col-md-8 col-md-offset-2">
+								<h2>PSD Conversion</h2>
+								<img src="img/portfolio/port-6.jpg" class="img-responsive" alt="" />
+								
 								<div class="description">
 									<p>
-										Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.
-										<br/>
-										This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="client">
-									<h5>CLIENT NAME</h5>
-									<p>
-										Client A
-									</p>
-								</div>
-								<div class="date">
-									<h5>TIMEFRAME</h5>
-									<p>
-										August 2011 - June 2012
-									</p>
-								</div>
-								<div class="url">
-									<h5>URL</h5>
-									<p>
-										<a href="#">www.thecompany.com</a>
-									</p>
-								</div>
-								<div class="tags">
-									<h5>TAGS</h5>
-									<p>
-										<span class="tagIcon">Cover</span><span class="tagIcon">Art</span><span class="tagIcon">Mockup</span>
+										I saw this PSD and had to make into code. I'm a fan of simple design like this and wanted something that looked appealing and clean. More sites should look like this. 
 									</p>
 								</div>
 							</div>
@@ -620,7 +378,8 @@
 				</div>
 			</div>
 			
-		</div>	
+		</div>
+	
 	</section>
 	
 	<section id="contact" class="no-section-padding">
@@ -671,12 +430,8 @@
 			
 				<div class="social-icons">
 					<a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
-					<a href="#" target="_blank" class="flickr"><i class="fa fa-flickr"></i> </a>
+					<a href="#" target="_blank" class="github"><i class="fa fa-github"></i> </a>
 					<a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i> </a>
-					<a href="#" target="_blank" class="pinterest"><i class="fa fa-pinterest"></i> </a>
-					<a href="#" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i> </a>
-					<a href="#" target="_blank" class="dropbox"><i class="fa fa-dropbox"></i> </a>
-					<a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i> </a>
 				</div>
 				<div class="clearfix"></div>
 			
@@ -688,6 +443,7 @@
 		<script type="text/javascript" src="js/plugins.js"></script>
 		<script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/typed.js"></script>
 
 		<script>
 			$(document).ready(function(){		
@@ -745,7 +501,7 @@
 
 			$(function() {
   
-  var arr = ['web developer', 'UX/UI developer', 'rad dad'];
+  var arr = ['Web Developer', 'UX/UI Design', 'Fluent in Neckbeard'];
   
   $('.rotator')
     .data('intervalLink', window.setInterval(function() {
@@ -762,6 +518,25 @@
     }, 5000));
 });
 		</script>
+		<script>
+
+
+$(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 0;             // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+        $(function(){
+      $(".typeMe").typed({
+        strings: ["Hi, I'm Brian Jenney. Your Web Developer"],
+        typeSpeed: 10
+      });
+  });
+    }
+});
+
+  
+</script>
 
     </body>   
 </html>
