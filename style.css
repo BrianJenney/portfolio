@@ -11,6 +11,15 @@ html {
 
 /* HEADER */
 
+#video-background{
+  width: 100%;
+}
+
+.border a{
+  text-decoration: none;
+  color: gray;
+}
+
 #head h1{
   padding-bottom: 0 !important;
   font-size: 175% !important;;
@@ -94,10 +103,14 @@ quote{
   width: 10%;
 }
 
-#video-background{
-  width: 100%;
-}
+
 
 .portfolio-grid {
   background-color: #2F3238;
+}
+
+/* CONTACT SECTION */
+
+.no-section-padding{
+  margin-bottom: -5%;
 }

@@ -47,7 +47,7 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 					<i class="fa fa-bars"></i>
 				</button>
-			<div class="company"><div class="border">BRIAN JENNEY</div></div>
+			<div class="company"><div class="border"><a href="#">BRIAN JENNEY</a></div></div>
 			</div>
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">				
@@ -233,8 +233,9 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>Devata Giving Circle</h2>
-								<img src="img/portfolio/port-1.jpg" class="img-responsive" alt="Devata Giving Circle Cambodian Women" />
-								<div class="description">
+								<a href="projects/Devata/index.html"><img src="img/portfolio/port-1.jpg" class="img-responsive" alt="Devata Giving Circle Cambodian Women" />
+								<div class="description"></a>
+									<h5>Site Design</h5>
 									<p>
 										Single-page layout for a local Cambodian-American philanthropy group, Devata Giving Circle. 
 									</p>
@@ -258,9 +259,10 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>Sarah Science Camp</h2>
-								<img src="img/portfolio/port-2.jpg" class="img-responsive" alt="Sarah Science Camp Oakland California" />
+								<a href="projects/sarahscience/index.html"><img src="img/portfolio/port-2.jpg" class="img-responsive" alt="Sarah Science Camp Oakland California" /></a>
 								
 								<div class="description">
+									<h5>Site Design</h5>
 									<p>
 										Site design for Sarah's Science Camp and afterschool programs. Sarah's Science is an outdoor camp which blends nature, science and outdoor activities. 
 									</p>
@@ -284,9 +286,10 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>Marcus Turner</h2>
-								<img src="img/portfolio/port-3.jpg" class="img-responsive" alt="Marcus Turner Oakland California, Beats, Music" />
+								<a href="projects/mrturner/index.html"><img src="img/portfolio/port-3.jpg" class="img-responsive" alt="Marcus Turner Oakland California, Beats, Music" /></a>
 								
 								<div class="description">
+									<h5>Portfolio</h5>
 									<p>
 										A simple, clean portfolio page for Marcus Turner, a producer from Oakland California. You can hear some of his beats on the page. Check it out!
 									</p>
@@ -313,11 +316,12 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>PSD Conversion</h2>
-								<img src="img/portfolio/port-4.jpg" class="img-responsive" alt="PSD, Music, Fun project" />
+								<a href="projects/PSDawesome/index.html"><img src="img/portfolio/port-4.jpg" class="img-responsive" alt="PSD, Music, Fun project" />
 								
 								<div class="description">
+									<h5>Photoshop Conversion</h5>
 									<p>
-										I saw this awesome PSD and had to code it. Very simple, wonderful background image really eye catching. 
+										I saw this awesome PSD and had to code it. Very simple, wonderful background image and really eye catching. 
 									</p>
 								</div>
 							</div>
@@ -329,7 +333,7 @@
 			<div class="col-sm-4" data-group="graphics,mockup">   
 				<div class="portfolio-link">
 					<div class="portfolio-hover">
-						<div class="img"><img src="img/portfolio/port-5.jpg" alt=""></div>
+						<div class="img"><img src="img/portfolio/port-5.jpg" alt="PSD, photoshop conversion, HTML, CSS"></div>
 						<div class="info dark">
 							<!-- DESCRIPTION -->
 						</div>
@@ -339,9 +343,10 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>Style Lend</h2>
-								<img src="img/portfolio/port-5.jpg" class="img-responsive" alt="" />
+								<a href="projects/stylelend/index.html"><img src="img/portfolio/port-5.jpg" class="img-responsive" alt="Replica of Style Lend site" /></a>
 								
 								<div class="description">
+									<h5>Replica Site</h5>
 									<p>
 										A replica of Style Lend's site. I really liked the overlays they use on their original site so I decided to take a stab at replicating their entire landing page. Very fun!
 									</p>
@@ -365,9 +370,10 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h2>PSD Conversion</h2>
-								<img src="img/portfolio/port-6.jpg" class="img-responsive" alt="" />
+								<a href="projects/MYFOLIO/index.html"><img src="img/portfolio/port-6.jpg" class="img-responsive" alt="MyFolio replication, clean site design" /></a>
 								
 								<div class="description">
+									<h5>Photoshop Conversion</h5>
 									<p>
 										I saw this PSD and had to make into code. I'm a fan of simple design like this and wanted something that looked appealing and clean. More sites should look like this. 
 									</p>
@@ -537,6 +543,14 @@ $(window).on('scroll', function() {
 
   
 </script>
+
+<!-- HAVE PORTFOLIO FADE IN ON SCROLL NEEDS SOME WORK!!!!!!!!!!!!!!!!! -->
+// <script>
+$("quote").scroll(function(){
+	$("#portfolio").hide()
+})
+
+// </script>
 
     </body>   
 </html>
