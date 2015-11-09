@@ -1,9 +1,4 @@
-/*
-Theme Name: SLAMR
-Author: CREATEBRILLIANCE - Media & Consulting
-Author URI: http://www.createbrilliance.com
-Version: 1.1
-*/
+
 
 var SLAMR;
 

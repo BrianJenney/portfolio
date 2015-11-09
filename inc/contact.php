@@ -8,8 +8,8 @@ header('Cache-Control: no-cache, must-revalidate');
 header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 header('Content-type: application/json');
 
-$admin_email = 'YOUR.EMAIL@MAIL.COM'; // Your Email
-$message_min_length = 5; // Min Message Length
+$admin_email = 'brianjenney83@gmail.com'; 
+$message_min_length = 5; 
 
 
 class Contact_Form{
@@ -19,7 +19,7 @@ class Contact_Form{
 		
 		
 		$this->email = trim($details['inputEmail']);
-		$this->subject = 'Contact from Your Website'; // Subject 
+		$this->subject = 'Email from Portfolio Site'; // Subject 
 		$this->message = stripslashes($details['inputMessage']);
 	
 		$this->email_admin = $email_admin;
