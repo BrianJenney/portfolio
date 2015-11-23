@@ -508,19 +508,19 @@
 		<script>
 
 
-$(window).on('scroll', function() {
-    var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 0;             // set to whatever you want it to be
+// $(window).on('scroll', function() {
+//     var y_scroll_pos = window.pageYOffset;
+//     var scroll_pos_test = 0;             // set to whatever you want it to be
 
-    if(y_scroll_pos > scroll_pos_test) {
-        $(function(){
+//     if(y_scroll_pos > scroll_pos_test) {
+		$(document).ready(function(){
       $(".typeMe").typed({
         strings: ["Hi, I'm Brian Jenney. Your Web Developer"],
-        typeSpeed: 10
+        typeSpeed: 15
       });
   });
-    }
-});
+   
+
 
   
 </script>
